@@ -11,6 +11,8 @@ import Contact from './Component/Contact'
 import AboutUs from './Component/AboutUs'
 import Booking from './Component/Booking'
 import Manageorder from './Component/Manageorder'
+import Notfound from './Component/NotFound'
+
 
 
 const App = () => {
@@ -34,6 +36,7 @@ const App = () => {
             <Route path='/booking/:index' element={<Booking />}></Route>
             <Route path='/RestaurantsListing' element={<RestaurantsListing />}></Route>
             <Route path='/Manageorder' element={<Manageorder />}></Route>
+            <Route path='*' element={<Notfound />}></Route>
 
 
 

@@ -23,18 +23,19 @@ const Manageorder = () => {
     const deleteOrder = async (id) => {
         console.log(id);
 
-        const res = await fetch("http://localhost:5000/order/delete/" + id, { method: 'DELETE' });
+        const res = await fetch("http://localhost:5000/order/delete/" + id, { method: 'Delete' });
         console.log(res.status);
         if (res.status === 200) {
             enqueueSnackbar("Order Deleted Successfully", { variant: 'success' });
         }
     }
 
+
+
     const displayItems = (dishes) => {
         return dishes.map ((dish) =>{
             return <div>
                 <p>{dish.name}</p>
-                <p></p>
 
                 
             </div>
@@ -51,6 +52,7 @@ const Manageorder = () => {
                     <th>Address</th>
                     <th>Dishes</th>
                     <th>Delete</th>
+
                 </tr>
             </thead>
             <tbody>
@@ -60,7 +62,9 @@ const Manageorder = () => {
                             <td>{order.restaurant.name}</td>
                             <td>{order.restaurant.address}</td>
                             <td>{displayItems(order.dishes)}</td>
-                            <button className='btn btn-danger'>Delete </button>
+                            <td><button className='btn btn-danger'  onClick={() =>{deleteOrder(order._id)}}>Delete </button></td>
+
+
 
                         </tr>
                     })

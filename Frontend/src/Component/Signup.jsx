@@ -46,10 +46,10 @@ const Signup = () => {
       console.log(res.status);
 
       if (res.status == 200) {
-        enqueueSnackbar('Register primaryfully ', { variant: 'primary' });
+        enqueueSnackbar('Register primaryfully ', { variant: 'success' });
         navigate('/Login');
       } else {
-        enqueueSnackbar('Something went wrong', { variant: 'primary' });
+        enqueueSnackbar('Something went wrong', { variant: 'error' });
 
       }
 

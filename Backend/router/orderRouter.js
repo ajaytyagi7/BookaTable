@@ -30,7 +30,6 @@ router.post('/add',(req,res) =>{
     });
 
     router.delete('/delete/:id',(req,res) => {
-        // res.send('delete responce from user Router');
         Model.findByIdAndDelete(req.params.id)
         .then((result) => {
             res.json(result)
