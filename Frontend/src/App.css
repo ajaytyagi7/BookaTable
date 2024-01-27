@@ -1,0 +1,107 @@
+.my-img{
+    height: 180px;
+}
+.navbar-img{
+    height: 60px;
+    
+}
+.nav-home{
+ border-radius: 5px;
+}
+.nav-signup{
+ border-radius: 5px;
+ margin-left: 500px;
+ 
+
+}
+.nav-login{
+ border-radius: 5px;
+
+}
+.nav-contact{
+ border-radius: 5px;
+
+}
+.nav-input{
+    height: 40px;
+    margin-left: 20px;
+    padding: 10px;
+}
+.nav-search{
+    height: 20px;
+}
+
+.bg-img-login{
+    background-image: url(https://img.freepik.com/free-photo/top-view-black-frame-with-plant_23-2148643780.jpg?w=1060&t=st=1705509927~exp=1705510527~hmac=5a778f11d46204ba0b869745ffea7a2b0fce02941de37fb93a353257582be8e4);
+    background-size: cover;
+    height: 90vh;
+}
+.login-mycard{
+    position: absolute;
+    left: 17%;
+    top: 40%;
+}
+.signup-card{
+    position: absolute;
+   
+}
+.bg-img-signup{
+    background-image: url(https://img.freepik.com/free-vector/background-realistic-abstract-technology-particle_23-2148431735.jpg?size=626&ext=jpg&ga=GA1.1.913293683.1703873181&semt=ais);
+    background-color: cover;
+    height: 90vh;
+    background-size: cover;
+
+}
+
+.home-img{
+    
+    height: 630px;
+    margin-left: -10px;
+}
+.home-food{
+    position: absolute;
+    bottom: 10%;
+}
+.home-food h1{
+    font-size: 6vw;
+}
+.home-displayproduct{
+    height: 160px;
+}
+.home-displayproduct-card{
+    height: 150px;
+}
+.home-deal-img{
+    /* height: 245px; */
+    border-radius: 50px;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.contact-bg-img{
+    background-image: url(https://img.freepik.com/premium-photo/yellow-creative-flat-lay-workspace-with-notebook-laptop-cup-copy-space-tulips-flower-decorated-table_67155-14972.jpg?size=626&ext=jpg&ga=GA1.1.913293683.1703873181&semt=ais);
+    background-size: cover;
+    height: 90vh;
+
+}
+.contact-card{
+    position: absolute;
+    left: 10%;
+    bottom: 100px
+}
+.about-img{
+    height: 520px;
+}
+.partner-img{
+    height: 300px;
+}
+.home-down-img{
+    width: 1530px;
+    height: 400px;
+    
+}
+.home-btn{
+        position: relative;
+        bottom: 35%;
+
+}
