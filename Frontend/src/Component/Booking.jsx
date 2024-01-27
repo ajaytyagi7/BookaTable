@@ -82,7 +82,7 @@ const Booking = () => {
         return restroData.dishes.map((dish) => {
             return <div className='col-md-2  p-2'>
                 <div className="card " >
-                    <img src={dish.image} className='card-img-top' alt="" />
+                    <img src={dish.image} className='card-img-top' style={{height:'120px'}} alt="" />
                     <div className="card-body">
                         <h6>{dish.name}</h6>
                         <h6>₹{dish.price} {dish.qty}</h6>
@@ -99,7 +99,7 @@ const Booking = () => {
             <div className='container'>
                 <div className='row row-cols-4 '>
                     <div className="col-md-6 ">
-                        <img src={restroData.image} className='img-fluid ' alt="" />
+                        <img src={restroData.image} className='img-fluid '  alt="" />
                     </div>
                     <div className="col-md-3">
                         <h2>{restroData.name}</h2>
