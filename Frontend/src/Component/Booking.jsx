@@ -13,7 +13,6 @@ const Booking = () => {
     const [currentUser, setCurrentUser] = useState(
         JSON.parse(sessionStorage.getItem('user'))
     );
-    // console.log(currentUser);
 
     const [selDishes, setSelDishes] = useState([]);
 
